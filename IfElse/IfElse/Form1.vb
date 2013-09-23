@@ -6,7 +6,7 @@ Public Class Form1
 
         Dim num1, num2 As Double
 
-        If IsNumeric(txtFirstNum.Text) Then
+        If IsNumeric(txtFirstNum.Text) And IsNumeric(txtSecondNum.Text) Then
             num1 = CDbl(txtFirstNum.Text)
             num2 = CDbl(txtSecondNum.Text)
 
